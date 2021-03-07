@@ -9,3 +9,5 @@ tscコマンドは　TypeScriptで書かれたコードをJavaScriptに変換す
 tscはnode_modulesパッケージの配下にある(node_modules/.bin/tsc)                                                                                                           
 
 npxコマンドはnode_models配下を探索して実行してくれるコマンド
+
+ts-nodeはTypeScriptで書かれたコードをJavaScriptにコンパイルした後にnodeで実行までしてくれるパッケージ

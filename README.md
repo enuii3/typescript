@@ -30,3 +30,6 @@ npx ts-node-dev --respawn src/install-typescript.ts
 - never型は呼び元に返ってもこない
 - unknown型はタイプガードとして使う（any型を使わずにtypeofとの併用）
 - intersection型は作成した型の再利用（複合）し作成する型
+- union型はパイプ（｜）を用いて複数種の型を許容する型
+- literal型は文字列や数値を決め打ち(union型を用いる)で許容出来る型
+- enum型はenum型は列挙（index番号を付与する）

@@ -14,3 +14,6 @@ ts-nodeはTypeScriptで書かれたコードをJavaScriptにコンパイルし�
 
 npx ts-node-dev --respawn src/install-typescript.ts
 --respawnオプションをつけることによって変更を検知して、コンパイルして実行してくれる
+
+通常JavaScriptではモジュールを導入していない場合、変数を定義するとグローバル空間に定義される。
+exportをしていないとモジュールとして扱われない

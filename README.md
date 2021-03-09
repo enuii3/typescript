@@ -29,4 +29,4 @@ npx ts-node-dev --respawn src/install-typescript.ts
 - void型は呼び元には返りますが、returnされる値がない場合
 - never型は呼び元に返ってもこない
 - unknown型はタイプガードとして使う（any型を使わずにtypeofとの併用）
-- 
+- intersection型は作成した型の再利用（複合）し作成する型

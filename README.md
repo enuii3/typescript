@@ -1,4 +1,4 @@
-# typescript
+# TypeScript
 
 ```
 npm install --save-dev typescript

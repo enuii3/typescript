@@ -17,3 +17,8 @@ npx ts-node-dev --respawn src/install-typescript.ts
 
 通常JavaScriptではモジュールを導入していない場合、変数を定義するとグローバル空間に定義される。
 exportをしていないとモジュールとして扱われない
+
+配列の制約（ex 要素の順序など）を強めたい場合にtuple型を使用する
+tuple型は型推論では表示されない
+
+any型は型を不定な場合に使用する

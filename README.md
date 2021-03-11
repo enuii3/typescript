@@ -33,6 +33,5 @@ npx ts-node-dev --respawn src/install-typescript.ts
 - union型はパイプ（｜）を用いて複数種の型を許容する型
 - literal型は文字列や数値を決め打ち(union型を用いる)で許容出来る型
 - enum型はenum型は列挙（index番号を付与する）
-- constructorはインスタンスの生成時の初期化処理で
-- enum型はenum型は列挙（index番号を付与する）型定義は書かない
-- enum型はenum型は列挙（index番号を付与する）
+- constructorはインスタンスの生成時の初期化処理で型定義は書かない
+- 

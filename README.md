@@ -37,3 +37,4 @@ npx ts-node-dev --respawn src/install-typescript.ts
 - staticは静的メンバを使用する際に使用する(インスタンスの作成を省ける？)
 - abstractは抽象メソッドと呼ばれ,必ずオーバーライド(継承)しないといけない
 - TypeScriptの場合は多重継承（複数のクラスの継承）はできないが、interfaceの多重継承は可能
+- interfaceは型を作ったり、関数のパラメーターを作ったりと色々出来てしまう

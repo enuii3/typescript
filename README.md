@@ -38,3 +38,5 @@ npx ts-node-dev --respawn src/install-typescript.ts
 - abstractは抽象メソッドと呼ばれ,必ずオーバーライド(継承)しないといけない
 - TypeScriptの場合は多重継承（複数のクラスの継承）はできないが、interfaceの多重継承は可能
 - interfaceは型を作ったり、関数のパラメーターを作ったりと色々出来てしまう
+- geneticsは汎用的な型やクラスを作成する際に使用する(関数などの引数に型まで指定することによってなり立たせることができる)
+- 型アサーションにはasを推奨されている（<>はReactと混合するため）

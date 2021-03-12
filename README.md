@@ -43,3 +43,4 @@ npx ts-node-dev --respawn src/install-typescript.ts
 - as constはreadonlyを複数行に書かなくても一箇所書くだけで、全てreadonlyにできる
 - partialは<>に与えた型を元にメンバを必須ではない状態の型を複製できる？
 - requiredは上記に対してメンバが必須な型を作成できる？
+- Recordは二つの硬引数を受け取る
